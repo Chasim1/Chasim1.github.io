@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111827;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2937;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #9ca3af;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    .hero {
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #d1d5db;
+    }
+
+    .projects {
+      padding: 4rem 2rem;
+    }
+
+    .projects h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: #1f2937;
+      padding: 2rem;
+      border-radius: 12px;
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-bottom: 1rem;
+    }
+
+    .project-card p {
+      color: #d1d5db;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-card a {
+      display: inline-block;
+      text-decoration: none;
+      background: #2563eb;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .project-card a:hover {
+      background: #3b82f6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1f2937;
+      margin-top: 3rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Web Developer & Designer</p>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Your Name</h2>
+    <p>
+      I create clean and modern websites using HTML and CSS.
+      Below are some of my projects.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A simple landing page design with responsive layout.</p>
+        <a href="https://example.com" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>An interactive portfolio website with animations.</p>
+        <a href="https://example.com" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>A modern business homepage built using HTML and CSS.</p>
+        <a href="https://example.com" target="_blank">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
