@@ -76,6 +76,38 @@
   a.button:hover {
     background: #3b82f6;
   }
+ .screenshot-section {
+  margin-top: 2rem;
+}
+
+.screenshot-section h2 {
+  margin-bottom: 1rem;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.screenshot-box {
+  background: #111827;
+  border: 2px dashed #374151;
+  border-radius: 10px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.screenshot-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 </style>
 </head>
 
