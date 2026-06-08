@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pizza Calculator</title>
 
+<style>
+  /* same style system */
+  * { margin:0; padding:0; box-sizing:border-box; font-family:Arial; }
+
+  body { background:#111827; color:white; }
+
+  header {
+    background:#1f2937;
+    padding:2rem;
+    text-align:center;
+  }
+
+  nav a {
+    color:white;
+    margin:0 1rem;
+    text-decoration:none;
+  }
+
+  nav a:hover { color:#60a5fa; }
+
+  .container {
+    padding:4rem 2rem;
+    display:flex;
+    justify-content:center;
+  }
+
+  .card {
+    background:#1f2937;
+    padding:2.5rem;
+    border-radius:12px;
+    max-width:800px;
+    width:100%;
+  }
+
+  h2 { margin-bottom:1rem; }
+
+  p { color:#d1d5db; margin-bottom:1rem; }
+
+  ul { color:#d1d5db; }
+
+  .button {
+    display:inline-block;
+    margin-top:1rem;
+    background:#2563eb;
+    padding:0.7rem 1.2rem;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+  }
+
+  .button:hover { background:#3b82f6; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Pizza Calculator</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="card">
+
+    <h2>Project Overview</h2>
+    <p>
+      This app calculates the total cost of pizza orders based on size and quantity.
+    </p>
+
+    <h2>My Role</h2>
+    <p>
+      I designed the UI and built the JavaScript logic to calculate pricing dynamically.
+    </p>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <a class="button" href="https://pizza-calculator-rho.vercel.app/" target="_blank">
+      Live Project
+    </a>
+
+  </div>
+</div>
+
+</body>
+</html>
