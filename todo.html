@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Todo List Project</title>
 
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: #111827;
+    color: white;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #1f2937;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #60a5fa;
+  }
+
+  .container {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background: #1f2937;
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    margin-top: 1rem;
+    color: #d1d5db;
+  }
+
+  a.button {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #2563eb;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+  }
+
+  a.button:hover {
+    background: #3b82f6;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Todo List Project</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="card">
+
+    <h2>Project Overview</h2>
+    <p>
+      This Todo List application allows users to add, track, and complete tasks. 
+      It helps users stay organized and manage daily responsibilities.
+    </p>
+
+    <h2>My Role</h2>
+    <p>
+      I built the full front-end interface and implemented the task input, deletion, and completion features.
+    </p>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <a class="button" href="https://todo-list-seven-alpha-47.vercel.app/" target="_blank">
+      Live Project
+    </a>
+
+  </div>
+</div>
+
+</body>
+</html>
