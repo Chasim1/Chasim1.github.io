@@ -5,7 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me | Chasi Mingo</title>
 
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111827;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2937;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    .about-container {
+      padding: 4rem 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-card {
+      background: #1f2937;
+      padding: 2.5rem;
+      border-radius: 12px;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .about-card h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-card p {
+      color: #d1d5db;
+      margin-bottom: 2rem;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h3 {
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    .button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #3b82f6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
@@ -15,6 +115,8 @@
 
   <nav>
     <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="index.html#projects">Projects</a>
   </nav>
 </header>
 
@@ -25,15 +127,13 @@
     <h2>About Me</h2>
 
     <p>
-I am a web development student with experience building websites using HTML, CSS, and JavaScript. I learned how to design and structure user-friendly web pages and improving my coding skills through projects.
+      I am a web development student with experience building websites using HTML, CSS, and JavaScript. 
+      I focus on creating clean, simple, and user-friendly designs while continuing to improve my coding skills through projects.
     </p>
 
     <div class="section">
       <h3>Resume</h3>
-
-      <a class="button" href="resume.pdf" target="_blank">
-        Download Resume
-      </a>
+      <a class="button" href="resume.pdf" target="_blank">Download Resume</a>
     </div>
 
     <div class="section">
@@ -41,19 +141,15 @@ I am a web development student with experience building websites using HTML, CSS
 
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/chasi-m-9a512a25a/" target="_blank">
-            LinkedIn
-          </a>
+          <a href="https://linkedin.com/in/YOUR-LINK" target="_blank">LinkedIn</a>
         </li>
 
         <li>
-          <a href="https://github.com/Chasim1" target="_blank">
-            GitHub
-          </a>
+          <a href="https://github.com/Chasim1" target="_blank">GitHub</a>
         </li>
 
         <li>
-          Email: chasimingo7@gmail.com
+          Email: <a href="mailto:chasimingo7@gmail.com">chasimingo7@gmail.com</a>
         </li>
       </ul>
     </div>
